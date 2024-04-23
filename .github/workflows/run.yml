@@ -30,8 +30,8 @@ jobs:
       - name: 开始
         run: |
           pip3 install requests
-          user='1983029606@qq.com#547619415@qq.com'
-          passwd='cp123456789.#123456abcd'
+          user='1983029606@qq.com'
+          passwd='cp123456789.'
           open_get_weather='${{ secrets.OPEN_GET_WEATHER }}'
           area='${{ secrets.AREA }}'
           python3 main.py ${user} ${passwd} ${open_get_weather} ${area}
